@@ -98,6 +98,8 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \		
 	vendor/huawei/u8800/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+	vendor/huawei/u8800/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	vendor/huawei/u8800/proprietary/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
 	vendor/huawei/u8800/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/huawei/u8800/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
 
@@ -109,8 +111,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
 	vendor/huawei/u8800/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7630_surf.so \
 	vendor/huawei/u8800/proprietary/lib/hw/copybit.msm7630_surf.so:system/lib/hw/copybit.msm7630_surf.so \
-	vendor/huawei/u8800/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-	vendor/huawei/u8800/proprietary/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
 	vendor/huawei/u8800/proprietary/lib/hw/gralloc.msm7630_surf.so:system/lib/hw/gralloc.msm7630_surf.so \
 	vendor/huawei/u8800/proprietary/lib/hw/hwcomposer.msm7630_surf.so:system/lib/hw/hwcomposer.msm7630_surf.so \
 	vendor/huawei/u8800/proprietary/lib/hw/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
