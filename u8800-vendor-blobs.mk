@@ -88,8 +88,10 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/huawei/u8800/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/huawei/u8800/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+	vendor/huawei/u8800/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/huawei/u8800/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
 	vendor/huawei/u8800/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+	vendor/huawei/u8800/proprietary/lib/librpc.so:system/lib/librpc.so \
 	vendor/huawei/u8800/proprietary/lib/libwms.so:system/lib/libwms.so \
 	vendor/huawei/u8800/proprietary/lib/libwmsts.so:system/lib/libwmsts.so
 	
