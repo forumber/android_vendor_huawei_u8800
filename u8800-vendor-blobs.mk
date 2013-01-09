@@ -112,4 +112,3 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/hw/lights.msm7630_surf.so:system/lib/hw/lights.msm7630_surf.so \
 	vendor/huawei/u8800/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/huawei/u8800/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so
-	
