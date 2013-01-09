@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/huawei/u8800/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so
 
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -25,9 +24,44 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/huawei/u8800/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
 	vendor/huawei/u8800/proprietary/lib/libxml.so:system/lib/libxml.so \
+	vendor/huawei/u8800/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+	vendor/huawei/u8800/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+	vendor/huawei/u8800/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
+	
+
+# EGL
+PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+	vendor/huawei/u8800/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+	vendor/huawei/u8800/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+	vendor/huawei/u8800/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+	vendor/huawei/u8800/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+	vendor/huawei/u8800/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+	vendor/huawei/u8800/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+	vendor/huawei/u8800/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+	vendor/huawei/u8800/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+
+# Wifi	
+PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg.dat:system/etc/firmware/wlan/cfg.dat \
+	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg_new.dat:system/etc/firmware/wlan/cfg_new.dat \
+	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
+	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
+	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wapi_fw.bin:system/etc/firmware/wlan/qcom_wapi_fw.bin \
+	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wlan_nv.bin:system/etc/firmware/wlan/qcom_wlan_nv.bin \
+	vendor/huawei/u8800/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so
+
+# RIL		
+PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
 	vendor/huawei/u8800/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/huawei/u8800/proprietary/lib/libauth.so:system/lib/libauth.so \
 	vendor/huawei/u8800/proprietary/lib/libcm.so:system/lib/libcm.so \
 	vendor/huawei/u8800/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
@@ -36,18 +70,14 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libdsm.so:system/lib/libdsm.so \
 	vendor/huawei/u8800/proprietary/lib/libdss.so:system/lib/libdss.so \
 	vendor/huawei/u8800/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-	vendor/huawei/u8800/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/huawei/u8800/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
 	vendor/huawei/u8800/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
 	vendor/huawei/u8800/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
 	vendor/huawei/u8800/proprietary/lib/libidl.so:system/lib/libidl.so \
-	vendor/huawei/u8800/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-	vendor/huawei/u8800/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/huawei/u8800/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
 	vendor/huawei/u8800/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/huawei/u8800/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
 	vendor/huawei/u8800/proprietary/lib/libnv.so:system/lib/libnv.so \
-	vendor/huawei/u8800/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
 	vendor/huawei/u8800/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
 	vendor/huawei/u8800/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
 	vendor/huawei/u8800/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -58,29 +88,10 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
 	vendor/huawei/u8800/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/huawei/u8800/proprietary/lib/libwms.so:system/lib/libwms.so \
-	vendor/huawei/u8800/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-	vendor/huawei/u8800/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-	vendor/huawei/u8800/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-	vendor/huawei/u8800/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-	vendor/huawei/u8800/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-	vendor/huawei/u8800/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-	vendor/huawei/u8800/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-	vendor/huawei/u8800/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-	vendor/huawei/u8800/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-	vendor/huawei/u8800/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-	vendor/huawei/u8800/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/huawei/u8800/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg.dat:system/etc/firmware/wlan/cfg.dat \
-	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg_new.dat:system/etc/firmware/wlan/cfg_new.dat \
-	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
-	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
-	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wapi_fw.bin:system/etc/firmware/wlan/qcom_wapi_fw.bin \
-	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wlan_nv.bin:system/etc/firmware/wlan/qcom_wlan_nv.bin
+	vendor/huawei/u8800/proprietary/lib/libwmsts.so:system/lib/libwmsts.so
+	
+# GPS
+PRODUCT_COPY_FILES += \		
+	vendor/huawei/u8800/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+	vendor/huawei/u8800/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+	vendor/huawei/u8800/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
