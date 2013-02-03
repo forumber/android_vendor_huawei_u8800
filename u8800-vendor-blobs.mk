@@ -80,8 +80,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wapi_fw.bin:system/etc/firmware/wlan/qcom_wapi_fw.bin \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wlan_nv.bin:system/etc/firmware/wlan/qcom_wlan_nv.bin \
 	vendor/huawei/u8800/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-    vendor/huawei/u8800/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/huawei/u8800/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
 	vendor/huawei/u8800/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
 	vendor/huawei/u8800/proprietary/lib/modules/librasdioif.ko:system/lib/modules/librasdioif.ko
 
