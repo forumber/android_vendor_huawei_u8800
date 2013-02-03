@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL		
 PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800/proprietary/bin/rild:system/bin/rild \
 	vendor/huawei/u8800/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
 	vendor/huawei/u8800/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
 	vendor/huawei/u8800/proprietary/lib/libauth.so:system/lib/libauth.so \
