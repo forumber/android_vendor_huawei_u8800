@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
 	
 # GPS
 PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/huawei/u8800/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
 	vendor/huawei/u8800/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/huawei/u8800/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
