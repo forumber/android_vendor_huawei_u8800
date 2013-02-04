@@ -71,9 +71,9 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/huawei/u8800/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/huawei/u8800/proprietary/lib/libEGL.so:system/lib/libEGL.so \
-	vendor/huawei/u8800/proprietary/lib/hw/copybit.msm7x30.so:system/hw/copybit.msm7x30.so \
-	vendor/huawei/u8800/proprietary/lib/hw/gralloc.msm7x30.so:system/hw/gralloc.msm7x30.so \
-	vendor/huawei/u8800/proprietary/lib/hw/hwcomposer.msm7x30.so:system/hw/hwcomposer.msm7x30.so \
+	vendor/huawei/u8800/proprietary/lib/hw/copybit.msm7x30.so:system/lib/hw/copybit.msm7x30.so \
+	vendor/huawei/u8800/proprietary/lib/hw/gralloc.msm7x30.so:system/lib/hw/gralloc.msm7x30.so \
+	vendor/huawei/u8800/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so \
 	vendor/huawei/u8800/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
@@ -90,8 +90,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wapi_fw.bin:system/etc/firmware/wlan/qcom_wapi_fw.bin \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/qcom_wlan_nv.bin:system/etc/firmware/wlan/qcom_wlan_nv.bin \
-	vendor/huawei/u8800/proprietary/lib/modules/librasdioif.ko:system/modules/librasdioif.ko \
-	vendor/huawei/u8800/proprietary/lib/modules/wlan.ko:system/modules/wlan.ko \
+	vendor/huawei/u8800/proprietary/lib/modules/librasdioif.ko:system/lib/modules/librasdioif.ko \
+	vendor/huawei/u8800/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
 	vendor/huawei/u8800/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
 	vendor/huawei/u8800/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/huawei/u8800/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so
