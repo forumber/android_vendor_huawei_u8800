@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	vendor/huawei/u8800/proprietary/bin/wpa_cli:system/bin/wpa_cli \
 	vendor/huawei/u8800/proprietary/bin/netd:system/bin/netd \
-	vendor/huawei/u8800/proprietary/bin/netmgr:system/bin/netmgr \
+	vendor/huawei/u8800/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/huawei/u8800/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg.dat:system/etc/firmware/wlan/cfg.dat \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg_new.dat:system/etc/firmware/wlan/cfg_new.dat \
