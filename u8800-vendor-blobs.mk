@@ -100,3 +100,20 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
 	vendor/huawei/u8800/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/huawei/u8800/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
+	
+# usr
+PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+	vendor/huawei/u8800/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+	vendor/huawei/u8800/proprietary/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
+	vendor/huawei/u8800/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+	vendor/huawei/u8800/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
+	vendor/huawei/u8800/proprietary/usr/keychars/surf_keypad.kcm:system/usr/keychars/surf_keypad.kcm \
+	vendor/huawei/u8800/proprietary/usr/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
+	vendor/huawei/u8800/proprietary/usr/keylayout/7k_handset.kl:system/usr/keychars/7k_handset.kl \
+	vendor/huawei/u8800/proprietary/usr/keylayout/fluid-keypad.kl:system/usr/keychars/fluid-keypad.kl \
+	vendor/huawei/u8800/proprietary/usr/keylayout/AVRCP.kl:system/usr/keychars/AVRCP.kl \
+	vendor/huawei/u8800/proprietary/usr/keylayout/Generic.kl:system/usr/keychars/Generic.kl \
+	vendor/huawei/u8800/proprietary/usr/keylayout/msm_tma300_ts.kl:system/usr/keychars/msm_tma300_ts.kl \
+	vendor/huawei/u8800/proprietary/usr/keylayout/qwerty.kl:system/usr/keychars/qwerty.kl \
+	vendor/huawei/u8800/proprietary/usr/keylayout/surf_keypad.kl:system/usr/keychars/surf_keypad.kl
