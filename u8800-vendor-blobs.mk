@@ -17,6 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+	vendor/huawei/u8800/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so
 
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -26,6 +27,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libxml.so:system/lib/libxml.so \
 	vendor/huawei/u8800/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/huawei/u8800/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
