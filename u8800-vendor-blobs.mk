@@ -19,6 +19,7 @@
 # OBJ
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+	vendor/huawei/u8800/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 	vendor/huawei/u8800/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so
 
 PRODUCT_COPY_FILES += \
