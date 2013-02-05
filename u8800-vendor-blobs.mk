@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/huawei/u8800/proprietary/lib/hw/lights.msm7x30.so:system/lib/hw/lights.msm7x30.so \
 	vendor/huawei/u8800/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+	vendor/huawei/u8800/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
+	vendor/huawei/u8800/proprietary/etc/vold.fstab:system/etc/vold.fstab \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
