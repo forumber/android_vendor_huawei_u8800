@@ -93,8 +93,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/modules/librasdioif.ko:system/lib/modules/librasdioif.ko \
 	vendor/huawei/u8800/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
 	vendor/huawei/u8800/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-	vendor/huawei/u8800/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/huawei/u8800/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so
+	vendor/huawei/u8800/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so
 
 # RIL		
 PRODUCT_COPY_FILES += \
