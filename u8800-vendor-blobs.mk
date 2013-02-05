@@ -151,8 +151,10 @@ PRODUCT_COPY_FILES += \
 	
 # usr
 PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800/proprietary/usr/idc/atmel-rmi-touchscreen.idc:system/usr/idc/atmel-rmi-touchscreen.idc \
 	vendor/huawei/u8800/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
 	vendor/huawei/u8800/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+	vendor/huawei/u8800/proprietary/usr/idc/synaptics.idc:system/usr/idc/synaptics.idc \
 	vendor/huawei/u8800/proprietary/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
 	vendor/huawei/u8800/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
 	vendor/huawei/u8800/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
