@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
 	vendor/huawei/u8800/proprietary/lib/libmmipstreamnetwork.so:system/lib/libmmipstreamnetwork.so \
 	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+	vendor/huawei/u8800/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
 	vendor/huawei/u8800/proprietary/lib/hw/lights.msm7x30.so:system/lib/hw/lights.msm7x30.so \
 	vendor/huawei/u8800/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/huawei/u8800/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
