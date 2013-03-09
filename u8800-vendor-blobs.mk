@@ -145,6 +145,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/huawei/u8800/proprietary/bin/hciattach:system/bin/hciattach \
+	vendor/huawei/u8800/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
+	vendor/huawei/u8800/proprietary/bin/dun-server:system/bin/dun-server \
+	vendor/huawei/u8800/proprietary/bin/sapd:system/bin/sapd \
 	vendor/huawei/u8800/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/huawei/u8800/proprietary/bin/sdptool:system/bin/sdptool \
 	vendor/huawei/u8800/proprietary/bin/bluetoothd:system/bin/bluetoothd \
