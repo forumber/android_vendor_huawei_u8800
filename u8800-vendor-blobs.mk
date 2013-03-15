@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/huawei/u8800/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
 	vendor/huawei/u8800/proprietary/bin/vold:system/bin/vold \
-	vendor/huawei/u8800/proprietary/bin/port-bridge:system/bin/port-bridge \
+	vendor/huawei/u8800/proprietary/bin/port-bridge:system/bin/port-bridge
 	
 # ETC
 PRODUCT_COPY_FILES += \
@@ -217,4 +217,4 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libmmipstreamnetwork.so:system/lib/libmmipstreamnetwork.so \
 	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/huawei/u8800/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-	vendor/huawei/u8800/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+	vendor/huawei/u8800/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
