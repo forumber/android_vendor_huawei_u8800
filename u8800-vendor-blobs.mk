@@ -20,6 +20,7 @@
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
 	vendor/huawei/u8800/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+	vendor/huawei/u8800/proprietary/lib/libwpa_client.so:obj/lib/libwpa_client.so \
 	vendor/huawei/u8800/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so
 
 # BIN
@@ -76,6 +77,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/modules/librasdioif.ko:system/lib/modules/librasdioif.ko \
 	vendor/huawei/u8800/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
 	vendor/huawei/u8800/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+	vendor/huawei/u8800/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
 	vendor/huawei/u8800/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so
 
 # RIL		
