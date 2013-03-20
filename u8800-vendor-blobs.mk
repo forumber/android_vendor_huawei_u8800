@@ -135,7 +135,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/sapd:system/bin/sapd \
 	vendor/huawei/u8800/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/huawei/u8800/proprietary/bin/sdptool:system/bin/sdptool \
-	vendor/huawei/u8800/proprietary/bin/bluetoothd:system/bin/bluetoothd \
 	vendor/huawei/u8800/proprietary/bin/btwlancoex:system/bin/btwlancoex
 
 	
