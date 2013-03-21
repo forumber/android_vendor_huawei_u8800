@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/huawei/u8800/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/cyttsp_7630_fluid.hex:system/etc/firmware/cyttsp_7630_fluid.hex \
 	vendor/huawei/u8800/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
 	vendor/huawei/u8800/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
