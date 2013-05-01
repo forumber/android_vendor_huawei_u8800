@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
 	vendor/huawei/u8800/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/huawei/u8800/proprietary/lib/libwms.so:system/lib/libwms.so \
-	vendor/huawei/u8800/proprietary/lib/libwmsts.so:system/lib/libwmsts.sob
+	vendor/huawei/u8800/proprietary/lib/libwmsts.so:system/lib/libwmsts.so
 
 # BT
 PRODUCT_COPY_FILES += \
