@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 	vendor/huawei/u8800/proprietary/lib/libwpa_client.so:obj/lib/libwpa_client.so \
 	vendor/huawei/u8800/proprietary/lib/libhwrpc.so:obj/lib/libhwrpc.so
-
+	
 # BIN
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -30,9 +30,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/compassd:system/bin/compassd \
 	vendor/huawei/u8800/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/huawei/u8800/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
-	vendor/huawei/u8800/proprietary/bin/vold:system/bin/vold \
 	vendor/huawei/u8800/proprietary/bin/port-bridge:system/bin/port-bridge
-	
+
 # ETC
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -71,7 +70,6 @@ PRODUCT_COPY_FILES += \
 
 # Wifi	
 PRODUCT_COPY_FILES += \
-	vendor/huawei/u8800/proprietary/bin/netd:system/bin/netd \
 	vendor/huawei/u8800/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg.dat:system/etc/firmware/wlan/cfg.dat \
 	vendor/huawei/u8800/proprietary/etc/firmware/wlan/cfg_new.dat:system/etc/firmware/wlan/cfg_new.dat \
@@ -117,18 +115,14 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
 	vendor/huawei/u8800/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/huawei/u8800/proprietary/lib/libwms.so:system/lib/libwms.so \
-	vendor/huawei/u8800/proprietary/lib/libwmsts.so:system/lib/libwmsts.so
-	
+	vendor/huawei/u8800/proprietary/lib/libwmsts.so:system/lib/libwmsts.sob
+
 # BT
 PRODUCT_COPY_FILES += \
-	vendor/huawei/u8800/proprietary/bin/hciattach:system/bin/hciattach \
-	vendor/huawei/u8800/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
 	vendor/huawei/u8800/proprietary/bin/dun-server:system/bin/dun-server \
 	vendor/huawei/u8800/proprietary/bin/sapd:system/bin/sapd \
 	vendor/huawei/u8800/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/huawei/u8800/proprietary/bin/sdptool:system/bin/sdptool \
 	vendor/huawei/u8800/proprietary/bin/btwlancoex:system/bin/btwlancoex
-
 	
 # usr
 PRODUCT_COPY_FILES += \
