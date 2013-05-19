@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 	vendor/huawei/u8800/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/huawei/u8800/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-	vendor/huawei/u8800/proprietary/lib/libEGL.so:system/lib/libEGL.so \
 	vendor/huawei/u8800/proprietary/lib/hw/copybit.msm7x30.so:system/lib/hw/copybit.msm7x30.so \
 	vendor/huawei/u8800/proprietary/lib/hw/gralloc.msm7x30.so:system/lib/hw/gralloc.msm7x30.so \
 	vendor/huawei/u8800/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so \
