@@ -81,6 +81,14 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
 	vendor/huawei/u8800/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so
 
+# Camera
+PRODUCT_COPY_FILES += \
+	vendor/huawei/u8800/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+	vendor/huawei/u8800/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	vendor/huawei/u8800/proprietary/lib/libgemini.so:system/lib/llibgemini.so \
+	vendor/huawei/u8800/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/huawei/u8800/proprietary/lib/hw/camera.msm7630_surf.so:system/lib/hw/camera.msm7x30.so
+
 # RIL		
 PRODUCT_COPY_FILES += \
 	vendor/huawei/u8800/proprietary/bin/rild:system/bin/rild \
