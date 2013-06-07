@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/u8800pro/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/u8800pro/proprietary/bin/rild:system/bin/rild \
+    vendor/huawei/u8800/proprietary/pulled/bin/cnd:system/bin/cnd \
+	vendor/huawei/u8800/proprietary/pulled/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/u8800pro/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/u8800pro/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/u8800pro/proprietary/bin/usbhub:system/bin/usbhub \
@@ -108,11 +110,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/huawei/u8800pro/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/huawei/u8800pro/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/huawei/u8800pro/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/huawei/u8800pro/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/huawei/u8800pro/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/huawei/u8800pro/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/huawei/u8800pro/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/huawei/u8800pro/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/huawei/u8800pro/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/huawei/u8800pro/proprietary/lib/libwms.so:system/lib/libwms.so \
