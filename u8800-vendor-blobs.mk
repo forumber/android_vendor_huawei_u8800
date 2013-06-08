@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/u8800/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/u8800/proprietary/bin/rild:system/bin/rild \
-    vendor/huawei/u8800/proprietary/pulled/bin/cnd:system/bin/cnd \
-	vendor/huawei/u8800/proprietary/pulled/bin/netmgrd:system/bin/netmgrd \
+    vendor/huawei/u8800/proprietary/bin/cnd:system/bin/cnd \
+    vendor/huawei/u8800/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/u8800/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/u8800/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/u8800/proprietary/bin/usbhub:system/bin/usbhub \
